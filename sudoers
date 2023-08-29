@@ -24,7 +24,7 @@ root	ALL=(ALL:ALL) ALL
 
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL
-
+ubuntu ALL=(ALL) NOPASSWD:/usr/bin/md5sum,/bin/cp,/bin/mv,/opt/.ch-tools/*/*,/usr/bin/docker,/bin/echo,/bin/cat,/usr/bin/base64,/bin/mkdir,/bin/chown,/bin/chmod,/usr/bin/env
 # See sudoers(5) for more information on "#include" directives:
 
 #includedir /etc/sudoers.d
